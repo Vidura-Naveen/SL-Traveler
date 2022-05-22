@@ -1,0 +1,84 @@
+html,body{
+    background: rgb(255, 238, 211) !important;
+}
+
+header .logoText span{
+    color:rgb(255, 134, 134);
+}
+
+header {
+    background-color:rgb(30, 42, 59);
+}
+
+.admin-wrapper{
+    display: flex;
+    height: calc(100% - 66px);
+    
+}
+.admin-wrapper .left-sidebar{
+    flex: 2;
+    height: 100%;
+    background: rgb(110, 108, 223);
+}
+
+.admin-wrapper .left-sidebar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: cornsilk;
+}
+
+.admin-wrapper .left-sidebar ul li a{
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid rgb(2, 2, 80);
+}
+
+.admin-wrapper .left-sidebar ul li a:hover{
+    background: rgb(2, 2, 80);
+}
+
+.admin-wrapper .admin-content{
+    flex: 8;
+    height: 100%;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+}
+
+.admin-content .page-title{
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+th,
+td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgb(65, 64, 64);
+}
+
+.edit{
+    color: rgb(29, 197, 104);
+}
+
+.delete {
+    color: rgb(255, 77, 77);
+}
+
+.publish {
+    color: rgb(60, 60, 255);
+}   
+
+.edit:hover, .delete:hover, .publish:hover{
+    text-decoration: underline;
+}
+
+form div{
+    margin-bottom: 20px;
+}
